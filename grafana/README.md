@@ -68,3 +68,6 @@ ORDER BY "time"
 
 ![GraficaPH](https://github.com/user-attachments/assets/2c036c8d-ce17-436e-b6e1-16585b2ac51a)
 
+## 👨‍💻 Autor
+
+- Gabriel Rodriguez – *Estudiante de Inteligencia Artificial y Big Data en CIPFP Mislata*
