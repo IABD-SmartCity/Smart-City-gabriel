@@ -75,14 +75,6 @@ proyecto-smart-city/
     └── README.md
 ```
 
----
-
-## 📷 Ejemplo de interfaz
-
-![Interfaz general del sistema](./92b50904-722f-4dab-8714-db99bc4c4fe8.png)
-
----
-
 ## 👨‍💻 Autor
 
 Gabriel Rodriguez – *Estudiante de Inteligencia Artificial y Big Data en CIPFP Mislata*
