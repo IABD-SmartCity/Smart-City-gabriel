@@ -37,21 +37,21 @@ Este proyecto tiene como objetivo modelar una ciudad inteligente capaz de recopi
 ## 📦 Estructura del repositorio
 proyecto-smart-city/
 │
-├── docker-compose.yml            # Orquestación de contenedores FIWARE
-├── README.md                     # Documentación del proyecto
+├── docker-compose.yml # Orquestación de contenedores FIWARE
+├── README.md # Documentación del proyecto
 │
-├── docs/                         # Documentación adicional
+├── docs/ # Documentación adicional (especificaciones, notas técnicas)
 │
-├── context-data/                 # Entidades y datos simulados
+├── context-data/ # Entidades NGSI y datos simulados (JSON/CSV)
 │
-├── grafana/                      # Configuración de dashboards
+├── grafana/ # Configuración de dashboards en Grafana (datasource y dashboards)
 │
-├── crate-init/                   # Inicialización de CrateDB si aplica
+├── crate-init/ # Scripts SQL de inicialización para CrateDB
 │
-├── powerbi/                      # Informes Power BI
-│   └── SmartCity.pbix            # Archivo del informe (.pbix)
+├── powerbi/ # Informes Power BI
+│ └── SmartCity.pbix # Archivo del informe interactivo de Power BI
 │
-└── scripts/                      # Scripts útiles
-    ├── Generar datos.py          # Envío simulado de datos al Context Broker
-    └── ETLWarehouseCSV.py        # Almecenar los datos tipo csv
-    └── ETLWarehousePosgres.py    # Almacenar lod datos en una base de datos posgressql
+└── scripts/ # Scripts útiles para automatizar el flujo de datos
+├── Generar datos.py # Envía datos simulados al Context Broker (Orion)
+├── ETLWarehouseCSV.py # Extrae datos de CrateDB y guarda en CSV para Power BI
+└── ETLWarehousePosgres.py # Extrae y almacena datos en PostgreSQL (Data Warehouse)
