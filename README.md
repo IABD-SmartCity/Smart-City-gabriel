@@ -35,6 +35,7 @@ Este proyecto tiene como objetivo modelar una ciudad inteligente capaz de recopi
 ---
 
 ## 📦 Estructura del repositorio
+```bash
 proyecto-smart-city/
 │
 ├── docker-compose.yml       # Orquestación de contenedores FIWARE
@@ -57,5 +58,3 @@ proyecto-smart-city/
 └── ETLWarehousePosgres.py   # Extrae y almacena datos en PostgreSQL (Data Warehouse)
 
 ---
-
-```bash
