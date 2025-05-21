@@ -15,4 +15,5 @@ FROM etsensortemperaturas
 WHERE entity_id = '$SensorTemperatura'
 GROUP BY DATE_TRUNC('day', time_index)
 ORDER BY "time"
-
+```
+![GraficaPH](https://github.com/user-attachments/assets/e16db9a0-c64e-4d60-b8f3-24a906892d6d)
