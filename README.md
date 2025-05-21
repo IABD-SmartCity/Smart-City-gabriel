@@ -55,3 +55,6 @@ proyecto-smart-city/
 ├── ETLWarehouseCSV.py       # Extrae datos de CrateDB y guarda en CSV para Power BI
 └── ETLWarehousePosgres.py   # Extrae y almacena datos en PostgreSQL (Data Warehouse)
 ```
+## 👨‍💻 Autor
+
+- Gabriel Rodriguez – *Estudiante de Inteligencia Artificial y Big Data en CIPFP Mislata*
