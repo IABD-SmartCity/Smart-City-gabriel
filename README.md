@@ -55,4 +55,5 @@ proyecto-smart-city/
 ├── Generar datos.py         # Envía datos simulados al Context Broker (Orion)
 ├── ETLWarehouseCSV.py       # Extrae datos de CrateDB y guarda en CSV para Power BI
 └── ETLWarehousePosgres.py   # Extrae y almacena datos en PostgreSQL (Data Warehouse)
+
 ---
