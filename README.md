@@ -57,3 +57,5 @@ proyecto-smart-city/
 └── ETLWarehousePosgres.py   # Extrae y almacena datos en PostgreSQL (Data Warehouse)
 
 ---
+
+```bash
