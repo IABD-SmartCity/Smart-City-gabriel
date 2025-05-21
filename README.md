@@ -41,8 +41,6 @@ proyecto-smart-city/
 ├── docker-compose.yml       # Orquestación de contenedores FIWARE
 ├── README.md                # Documentación del proyecto
 │
-├── docs/                    # Documentación adicional (especificaciones, notas técnicas)
-│
 ├── context-data/            # Entidades NGSI y datos simulados (JSON/CSV)
 │
 ├── grafana/                 # Configuración de dashboards en Grafana (datasource y dashboards)
