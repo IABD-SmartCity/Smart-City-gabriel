@@ -1,7 +1,7 @@
 import random
 import requests
 from datetime import datetime, timedelta
-import time  # <== agregar esto
+import time
 
 
 ORION_URL = "http://localhost:1026/v2/entities"
@@ -21,7 +21,7 @@ total_points = 400
 interval = (end_date - start_date) / total_points
 
 
-# Rango por atributo (puedes ajustar según sentido físico)
+# Rango por atributo
 attribute_ranges = {
    "Temperatura": (5, 30),
    "humidity": (20, 90),
