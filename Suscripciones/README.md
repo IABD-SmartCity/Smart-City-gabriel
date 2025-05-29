@@ -198,7 +198,6 @@ curl -X POST http://localhost:1026/v2/subscriptions -H "Content-Type: applicatio
 Puedes conectar **Grafana** a **CrateDB** para visualizar las series temporales de los sensores.
 
 ---
+## 👨‍💻 Autor
 
-## 🧑‍💻 Autor
-
-Gabriel Rodriguez Proyecto Smart City - Fase 1
+Gabriel Rodriguez – *Estudiante de Inteligencia Artificial y Big Data en CIPFP Mislata*
